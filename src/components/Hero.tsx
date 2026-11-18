@@ -17,7 +17,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenMenu }) => {
       {/* 1. Full-bleed Café Image (68% viewport height, no border radius, gradient bottom fade) */}
       <div className="relative w-full h-[58vh] sm:h-[64vh] lg:h-[68vh] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=2400&q=90"
+          src="/images/sections/hero-cafe-interior.jpg"
           alt={t.heroImageAlt}
           className="w-full h-full object-cover object-center scale-[1.02] transform transition-transform duration-1000 ease-out"
         />

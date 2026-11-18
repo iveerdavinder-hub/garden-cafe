@@ -76,7 +76,7 @@ export const OurCoffee: React.FC<OurCoffeeProps> = ({ onOpenBooking }) => {
             <div className="grid grid-cols-12 gap-4 items-center">
               <div className="col-span-8 rounded-2xl overflow-hidden shadow-warm-lg border border-border/80 aspect-[4/5]">
                 <img
-                  src="https://images.unsplash.com/photo-1587734195503-904fca47e0e9?auto=format&fit=crop&w=1200&q=85"
+                  src="/images/sections/coffee-beans-burlap.jpg"
                   alt="Specialty coffee beans being poured from burlap sack with warm rustic lighting"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-out"
                 />
@@ -84,7 +84,7 @@ export const OurCoffee: React.FC<OurCoffeeProps> = ({ onOpenBooking }) => {
 
               <div className="col-span-6 -ml-16 sm:-ml-20 -mt-24 sm:-mt-28 z-10 rounded-2xl overflow-hidden shadow-warm-lg border-4 border-cream aspect-square">
                 <img
-                  src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=85"
+                  src="/images/sections/coffee-v60-pourover.jpg"
                   alt="Ceramic V60 pour over extraction with rising steam"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-out"
                 />

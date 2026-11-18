@@ -80,7 +80,7 @@ export const About: React.FC = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-warm-lg border border-border/80 aspect-[4/5] bg-oat">
               <img
-                src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1200&q=85"
+                src="/images/sections/about-barista-counter.jpg"
                 alt="Smiling barista crafting drinks behind the wooden counter in warm natural light"
                 className="w-full h-full object-cover"
               />
