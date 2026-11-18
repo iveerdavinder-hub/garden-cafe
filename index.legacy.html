@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10271e" />
+  <meta name="description" content="Garden Cafe, Sarabha Nagar, Ludhiana. A garden-inspired cafe for coffee, food and memorable moments." />
+  <title>Garden Cafe | Where Nature Meets Flavour</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--green:#10271e;--green2:#19392b;--sage:#a8b89b;--cream:#f4f0e7;--paper:#fbf9f3;--gold:#c9a86a;--ink:#1c2921;--muted:#6e786f;--line:rgba(16,39,30,.13);--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);overflow-x:hidden}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}.container{width:min(1180px,calc(100% - 48px));margin:auto}.eyebrow{display:inline-flex;align-items:center;gap:10px;text-transform:uppercase;letter-spacing:.19em;font-size:10px;font-weight:700;color:var(--gold)}.eyebrow:before{content:"";width:28px;height:1px;background:currentColor}.section{padding:112px 0}.section-title{font:500 clamp(38px,5vw,64px)/1.08 var(--serif);letter-spacing:-.035em;margin:18px 0}.section-copy{color:var(--muted);line-height:1.8;max-width:540px;font-size:14px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:15px 23px;border:1px solid transparent;background:var(--gold);color:#17271e;text-transform:uppercase;letter-spacing:.13em;font-size:10px;font-weight:700;transition:.3s}.btn:hover{background:#dfc28b;transform:translateY(-3px)}.btn-outline{background:transparent;color:var(--cream);border-color:rgba(255,255,255,.55)}.btn-outline:hover{background:var(--cream);color:var(--green)}.btn-dark{background:var(--green);color:var(--cream)}.btn-dark:hover{background:var(--green2)}.nav{position:fixed;inset:0 0 auto;z-index:50;padding:22px 0;color:white;transition:.35s}.nav.scrolled{background:rgba(16,39,30,.96);backdrop-filter:blur(14px);padding:13px 0;box-shadow:0 8px 30px #0002}.nav-inner{display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px}.brand-mark{width:39px;height:39px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font:22px var(--serif)}.brand-name{font:600 18px var(--serif);letter-spacing:.06em}.brand-sub{display:block;font-size:9px;letter-spacing:.18em;color:#d8c9a9;margin-top:2px}.nav-links{display:flex;gap:30px;align-items:center}.nav-links a{font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:#f4f0e7c9;transition:.2s}.nav-links a:hover{color:var(--gold)}.nav-cta{padding:12px 16px;border:1px solid var(--gold);color:var(--cream)!important}.menu-toggle{display:none;background:none;border:0;color:white;font-size:24px}
+    .hero{height:100svh;min-height:680px;position:relative;display:flex;align-items:center;color:white;background:#14291f;overflow:hidden}.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,21,15,.82),rgba(7,21,15,.38) 58%,rgba(7,21,15,.22)),linear-gradient(0deg,rgba(7,21,15,.45),transparent 55%),url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=2200&q=90') center/cover;transform:scale(1.04);animation:heroZoom 14s ease-out forwards}.hero-content{position:relative;z-index:1;padding-top:55px;max-width:790px}.hero .eyebrow{color:#e1c38c}.hero h1{font:500 clamp(56px,9vw,112px)/.98 var(--serif);letter-spacing:-.045em;margin:24px 0}.hero h1 em{color:#dfc28b;font-weight:400}.hero p{max-width:490px;color:#eee9df;line-height:1.8;font-size:14px;margin:0 0 34px}.hero-actions{display:flex;gap:13px;flex-wrap:wrap}.hero-note{position:absolute;right:4%;bottom:45px;writing-mode:vertical-rl;text-transform:uppercase;letter-spacing:.23em;font-size:9px;color:#ffffffa8}.scroll-cue{position:absolute;bottom:38px;left:50%;transform:translateX(-50%);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#ffffffb8;display:flex;align-items:center;gap:12px}.scroll-cue:after{content:"";height:38px;width:1px;background:var(--gold);animation:linePulse 1.7s infinite}
+    .intro{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center}.intro-visual{position:relative;padding:0 38px 38px 0}.intro-visual img{width:100%;height:560px;object-fit:cover;display:block}.intro-visual:after{content:"";position:absolute;right:0;bottom:0;width:65%;height:65%;border:1px solid var(--gold);z-index:-1}.intro-stamp{position:absolute;bottom:65px;left:-28px;background:var(--green);color:var(--cream);padding:23px 25px;font:italic 20px var(--serif);box-shadow:0 15px 40px #10271e30}.intro-text .section-copy{margin:22px 0 30px}.stats{display:flex;gap:38px;margin-top:38px;padding-top:26px;border-top:1px solid var(--line)}.stat strong{font:500 31px var(--serif);color:var(--green);display:block}.stat span{font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+    .menu-section{background:var(--green);color:var(--cream);position:relative;overflow:hidden}.menu-section:before{content:"G";position:absolute;font:500 520px var(--serif);color:#ffffff06;right:-35px;top:-180px}.menu-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:45px;position:relative}.menu-head .section-copy{color:#d5d9d1a8}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px;position:relative}.filter{border:1px solid #ffffff35;background:transparent;color:#e6e8e0;padding:10px 15px;font-size:10px;letter-spacing:.08em;transition:.25s}.filter.active,.filter:hover{background:var(--gold);border-color:var(--gold);color:var(--green)}.menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;position:relative}.dish{background:#ffffff0b;border:1px solid #ffffff18;overflow:hidden;transition:.35s}.dish:hover{transform:translateY(-7px);background:#ffffff12}.dish img{width:100%;height:220px;object-fit:cover;display:block;transition:.6s}.dish:hover img{transform:scale(1.05)}.dish-img{overflow:hidden}.dish-info{padding:21px 22px 23px}.dish-top{display:flex;justify-content:space-between;gap:15px;align-items:center}.dish h3{font:500 22px var(--serif);margin:0}.dish-tag{font-size:9px;text-transform:uppercase;letter-spacing:.13em;color:var(--gold)}.dish p{color:#d5d9d1a8;font-size:12px;line-height:1.7;margin:12px 0 0}.menu-foot{color:#d5d9d1a8;font-size:11px;margin-top:24px;position:relative}
+    .experience{display:grid;grid-template-columns:.9fr 1.1fr;gap:75px;align-items:center}.experience-photos{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}.experience-photos img{width:100%;height:270px;object-fit:cover}.experience-photos img:nth-child(2){margin-top:55px}.experience-photos img:nth-child(3){height:200px;margin-top:-45px}.experience-photos img:nth-child(4){height:250px}.experience .section-copy{margin:22px 0 30px}.feature-list{display:grid;grid-template-columns:1fr 1fr;gap:17px;margin-top:30px}.feature{display:flex;gap:12px;align-items:center;font-size:11px;color:#526057}.feature i{width:29px;height:29px;border:1px solid #d8c9a9;border-radius:50%;display:grid;place-items:center;color:#9b7d4d;font-style:normal}
+    .gallery-section{background:#eee9dd}.gallery-head{text-align:center;margin-bottom:42px}.gallery-head .section-copy{margin:0 auto}.gallery-grid{display:grid;grid-template-columns:1.2fr .8fr 1fr;grid-template-rows:230px 230px;gap:13px}.gallery-grid img{width:100%;height:100%;object-fit:cover;display:block;transition:.5s}.gallery-item{overflow:hidden;position:relative;cursor:zoom-in}.gallery-item:hover img{transform:scale(1.06)}.gallery-item:first-child{grid-row:span 2}.gallery-item:nth-child(4){grid-column:2/4}.gallery-item:after{content:"";position:absolute;inset:0;border:1px solid #ffffff35;pointer-events:none}
+    .reviews{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:center}.rating-card{background:var(--green);color:var(--cream);padding:40px}.rating-number{font:500 76px var(--serif);line-height:1}.stars{color:var(--gold);letter-spacing:5px;margin:12px 0}.rating-card p{font-size:12px;color:#d5d9d1b8;line-height:1.7}.rating-card .btn{margin-top:16px}.quote-list{display:grid;gap:23px}.quote{border-bottom:1px solid var(--line);padding-bottom:23px}.quote p{font:italic 23px/1.45 var(--serif);margin:0 0 13px}.quote span{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+    .visit{background:var(--green);color:var(--cream);position:relative;overflow:hidden}.visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start}.visit .section-copy{color:#d5d9d1b8}.contact-lines{display:grid;gap:19px;margin:30px 0}.contact-line{display:flex;gap:15px;align-items:flex-start}.contact-icon{width:38px;height:38px;display:grid;place-items:center;border:1px solid #ffffff30;color:var(--gold);flex:none}.contact-line small{display:block;text-transform:uppercase;letter-spacing:.15em;font-size:9px;color:#d5d9d1a0;margin-bottom:6px}.contact-line strong{font-size:13px;font-weight:500;line-height:1.6}.map-frame{height:430px;border:0;width:100%;filter:saturate(.75)}.map-wrap{position:relative;padding:12px;border:1px solid #ffffff35}.map-wrap:after{content:"";position:absolute;inset:0;pointer-events:none;border:1px solid #ffffff20;transform:translate(10px,10px);z-index:-1}
+    .booking{background:var(--cream);color:var(--ink);padding:38px}.booking h3{font:500 31px var(--serif);margin:10px 0}.booking p{font-size:12px;color:var(--muted);line-height:1.7}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:25px}.field{display:grid;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:#68736a}.field input,.field select,.field textarea{width:100%;border:1px solid #d8d3c8;background:#fbfaf6;padding:13px;color:var(--ink);outline:none;font-size:12px}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--gold)}.field textarea{resize:vertical;min-height:82px}.booking .btn{width:100%;margin-top:18px}.fineprint{font-size:10px!important;color:#81877e!important}
+    footer{background:#0a1c14;color:var(--cream);padding:55px 0 24px}.footer-top{display:flex;justify-content:space-between;gap:30px;align-items:flex-start;padding-bottom:42px;border-bottom:1px solid #ffffff20}.footer-brand p{max-width:300px;color:#d5d9d18c;font-size:12px;line-height:1.8}.footer-links{display:flex;gap:55px}.footer-col strong{display:block;color:var(--gold);font-size:9px;letter-spacing:.17em;text-transform:uppercase;margin-bottom:17px}.footer-col a{display:block;color:#d5d9d1b8;font-size:11px;margin:10px 0}.footer-bottom{display:flex;justify-content:space-between;gap:20px;padding-top:22px;color:#d5d9d17d;font-size:9px;letter-spacing:.08em}.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}.reveal.visible{opacity:1;transform:translateY(0)}.lightbox{position:fixed;inset:0;background:#06130df2;z-index:100;display:none;align-items:center;justify-content:center;padding:30px}.lightbox.open{display:flex}.lightbox img{max-width:min(100%,1000px);max-height:85vh;object-fit:contain}.lightbox button{position:absolute;top:25px;right:30px;background:none;border:0;color:white;font-size:34px}.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);background:var(--green);color:white;padding:14px 20px;font-size:12px;z-index:110;opacity:0;pointer-events:none;transition:.3s}.toast.show{opacity:1;transform:translate(-50%,0)}
+    @keyframes heroZoom{to{transform:scale(1)}}@keyframes linePulse{0%,100%{opacity:.35;transform:scaleY(.7);transform-origin:top}50%{opacity:1;transform:scaleY(1);transform-origin:top}}
+    @media(max-width:900px){.nav-links{gap:16px}.nav-links a{font-size:9px}.intro,.experience,.reviews,.visit-grid{gap:42px}.menu-grid{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-rows:190px 190px}.section{padding:85px 0}}
+    @media(max-width:680px){.container{width:min(100% - 34px,1180px)}.section{padding:72px 0}.nav{padding:15px 0}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:65px;left:17px;right:17px;background:#10271e;padding:22px;flex-direction:column;align-items:stretch;gap:0;border:1px solid #ffffff20}.nav-links.open{display:flex}.nav-links a{padding:13px 5px;border-bottom:1px solid #ffffff15;font-size:10px}.nav-links .nav-cta{text-align:center;margin-top:12px}.hero{min-height:700px;height:92svh}.hero h1{font-size:clamp(52px,14vw,78px)}.hero-note{display:none}.scroll-cue{left:auto;right:20px;transform:none;bottom:25px}.intro,.experience,.reviews,.visit-grid{grid-template-columns:1fr}.intro{gap:42px}.intro-visual{padding:0 22px 22px 0}.intro-visual img{height:390px}.intro-stamp{left:-5px;bottom:45px}.stats{gap:25px}.menu-head{display:block}.menu-head .btn{margin-top:20px}.menu-grid{grid-template-columns:1fr}.dish img{height:230px}.experience-photos img{height:220px}.experience-photos img:nth-child(2){margin-top:35px}.experience-photos img:nth-child(3){height:170px;margin-top:-30px}.experience-photos img:nth-child(4){height:210px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:190px 150px 150px}.gallery-item:first-child{grid-row:span 2}.gallery-item:nth-child(4){grid-column:1/3}.rating-card{padding:30px}.quote p{font-size:20px}.booking{padding:25px 20px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.map-frame{height:330px}.footer-top,.footer-bottom{flex-direction:column}.footer-links{gap:35px;flex-wrap:wrap}.footer-bottom{line-height:1.7}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <nav class="nav" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Garden Cafe home">
+        <span class="brand-mark">G</span><span><span class="brand-name">GARDEN CAFE</span><span class="brand-sub">ਗਾਰਡਨ ਕੈਫੇ · LUDHIANA</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#story">Our Story</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#contact">Find Us</a>
+        <a class="nav-cta" href="#booking">Book a Table</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <span class="eyebrow">A little escape in Ludhiana</span>
+      <h1>Where Nature<br>Meets <em>Flavour.</em></h1>
+      <p>Good food, refreshing sips and a beautiful place to slow down. Step into Garden Cafe and make room for a lovely moment.</p>
+      <div class="hero-actions"><a class="btn" href="#menu">Explore the menu <span>↗</span></a><a class="btn btn-outline" href="#booking">Reserve a table</a></div>
+    </div>
+    <div class="hero-note">Sarabha Nagar · Ludhiana</div><a class="scroll-cue" href="#story">Scroll to explore</a>
+  </header>
+
+  <main>
+    <section class="section" id="story">
+      <div class="container intro">
+        <div class="intro-visual reveal">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1100&q=85" alt="Warm and welcoming cafe interior" loading="lazy">
+          <div class="intro-stamp">A place to<br>pause & savour.</div>
+        </div>
+        <div class="intro-text reveal">
+          <span class="eyebrow">The Garden Cafe feeling</span>
+          <h2 class="section-title">A little pause<br>from the everyday.</h2>
+          <p class="section-copy">Some places are made for more than a meal. They are for long conversations, familiar favourites, coffee breaks and moments worth remembering. Garden Cafe brings together a relaxed atmosphere and flavours to enjoy at your own pace.</p>
+          <a class="btn btn-dark" href="#gallery">Discover the space <span>↗</span></a>
+          <div class="stats"><div class="stat"><strong>4.0</strong><span>Google rating</span></div><div class="stat"><strong>1,199</strong><span>Customer reviews</span></div><div class="stat"><strong>11 PM</strong><span>Listed closing time</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="menu-head reveal">
+          <div><span class="eyebrow">Made for good moments</span><h2 class="section-title">A taste of<br>the good life.</h2><p class="section-copy">A few favourites to get you started. Ask our team for the latest full menu and availability.</p></div>
+          <a class="btn" href="#contact">Ask about the menu <span>↗</span></a>
+        </div>
+        <div class="filters reveal" role="group" aria-label="Filter menu">
+          <button class="filter active" data-filter="all">All favourites</button><button class="filter" data-filter="coffee">Coffee & drinks</button><button class="filter" data-filter="food">Food</button>
+        </div>
+        <div class="menu-grid" id="menuGrid">
+          <article class="dish reveal" data-category="coffee"><div class="dish-img"><img src="https://images.unsplash.com/photo-1542990253-0b8be3f3a5b2?auto=format&fit=crop&w=850&q=80" alt="Hot chocolate" loading="lazy"></div><div class="dish-info"><div class="dish-top"><h3>Hot Chocolate</h3><span class="dish-tag">Popular</span></div><p>A cosy, chocolatey favourite for a slower moment.</p></div></article>
+          <article class="dish reveal" data-category="coffee"><div class="dish-img"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=850&q=80" alt="Cafe latte" loading="lazy"></div><div class="dish-info"><div class="dish-top"><h3>Cafe Latte</h3><span class="dish-tag">Popular</span></div><p>Espresso comfort with a smooth, milky finish.</p></div></article>
+          <article class="dish reveal" data-category="coffee"><div class="dish-img"><img src="https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?auto=format&fit=crop&w=850&q=80" alt="Cappuccino" loading="lazy"></div><div class="dish-info"><div class="dish-top"><h3>Cappuccino</h3><span class="dish-tag">Coffee</span></div><p>A classic coffee break, topped with soft foam.</p></div></article>
+          <article class="dish reveal" data-category="coffee"><div class="dish-img"><img src="https://images.unsplash.com/photo-1513558161293-c17daa1c94a1?auto=format&fit=crop&w=850&q=80" alt="Refreshing mojito" loading="lazy"></div><div class="dish-info"><div class="dish-top"><h3>Mojito</h3><span class="dish-tag">Refreshing</span></div><p>A bright, refreshing sip for sunny afternoons.</p></div></article>
+          <article class="dish reveal" data-category="food"><div class="dish-img"><img src="https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=850&q=80" alt="Cheese garlic bread" loading="lazy"></div><div class="dish-info"><div class="dish-top"><h3>Cheese & Chicken Garlic Bread</h3><span class="dish-tag">Guest favourite</span></div><p>Inspired by a customer favourite mentioned in reviews.</p></div></article>
+          <article class="dish reveal" data-category="food"><div class="dish-img"><img src="https://images.unsplash.com/photo-1619895092538-128341789043?auto=format&fit=crop&w=850&q=80" alt="Lasagna" loading="lazy"></div><div class="dish-info"><div class="dish-top"><h3>Lasagna</h3><span class="dish-tag">Menu highlight</span></div><p>A hearty classic featured among the cafe's menu highlights.</p></div></article>
+        </div>
+        <p class="menu-foot">Menu selection and images are illustrative. Items, ingredients and prices should be confirmed with the cafe before ordering.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container experience">
+        <div class="experience-photos reveal">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=80" alt="Restaurant ambience" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=700&q=80" alt="Cafe seating" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=700&q=80" alt="Coffee bar" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=700&q=80" alt="Cafe dining" loading="lazy">
+        </div>
+        <div class="reveal">
+          <span class="eyebrow">More than a coffee stop</span><h2 class="section-title">Come for the<br>flavours. Stay for<br>the feeling.</h2>
+          <p class="section-copy">Whether you're catching up with friends, taking a well-earned break or planning a relaxed evening, make Garden Cafe part of your day.</p>
+          <div class="feature-list"><div class="feature"><i>✦</i> Dine-in experience</div><div class="feature"><i>✦</i> Takeaway available</div><div class="feature"><i>✦</i> No-contact delivery</div><div class="feature"><i>✦</i> A place to unwind</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="gallery-head reveal"><span class="eyebrow">A glimpse inside</span><h2 class="section-title">Moments at Garden Cafe.</h2><p class="section-copy">A visual moodboard for your next coffee, catch-up or dinner plan.</p></div>
+        <div class="gallery-grid reveal">
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=85" alt="Restaurant interior" loading="lazy"></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&q=85" alt="Coffee cup" loading="lazy"></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=700&q=85" alt="Fresh food" loading="lazy"></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=1100&q=85" alt="Food served at a table" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container reviews">
+        <div class="rating-card reveal"><span class="eyebrow">Loved by local guests</span><div class="rating-number">4.0<span style="font-size:22px;color:#c9a86a">/5</span></div><div class="stars">★★★★☆</div><p>Based on 1,199 Google reviews in the listing supplied for this website. Experiences can vary, and we encourage guests to read the latest feedback.</p><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Garden+Cafe+74-D+Sarabha+Nagar+Ludhiana" target="_blank" rel="noopener">Read Google reviews ↗</a></div>
+        <div class="quote-list reveal">
+          <div class="quote"><p>“Pretty place, nice ambience, friendly staff.”</p><span>Customer feedback · Google listing</span></div>
+          <div class="quote"><p>“Food and drinks were great.”</p><span>Customer feedback · Google listing</span></div>
+          <div class="quote"><p>“Garlic Bread With Cheese And Chicken Was Too Yum.”</p><span>Customer feedback · Google listing</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section visit" id="contact">
+      <div class="container visit-grid">
+        <div class="reveal">
+          <span class="eyebrow">Find your way to us</span><h2 class="section-title">Your table<br>is waiting.</h2><p class="section-copy">Drop by for a coffee, plan a meal or send us a message before your visit. We look forward to welcoming you.</p>
+          <div class="contact-lines">
+            <div class="contact-line"><span class="contact-icon">⌖</span><div><small>Visit us</small><strong>74-D, D-Block, Sarabha Nagar,<br>Ludhiana, Punjab 141001</strong></div></div>
+            <div class="contact-line"><span class="contact-icon">☎</span><div><small>Call the cafe</small><strong><a href="tel:+916239604749">+91 62396 04749</a></strong></div></div>
+            <div class="contact-line"><span class="contact-icon">◷</span><div><small>Hours</small><strong>Listed closing time: 11:00 PM<br><span style="font-size:10px;color:#d5d9d180">Please call to confirm today's opening hours.</span></strong></div></div>
+          </div>
+          <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=Garden+Cafe%2C+74-D%2C+D-Block%2C+Sarabha+Nagar%2C+Ludhiana%2C+Punjab+141001" target="_blank" rel="noopener">Get directions ↗</a>
+        </div>
+        <div class="map-wrap reveal"><iframe class="map-frame" title="Map showing Garden Cafe in Sarabha Nagar, Ludhiana" loading="lazy" src="https://maps.google.com/maps?q=Garden%20Cafe%2074-D%20Sarabha%20Nagar%20Ludhiana&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe></div>
+      </div>
+    </section>
+
+    <section class="section" id="booking">
+      <div class="container" style="max-width:800px">
+        <div class="booking reveal">
+          <span class="eyebrow">Let's make a plan</span><h3>Request a table.</h3><p>Share a few details and your WhatsApp app will open with a pre-filled reservation request to Garden Cafe.</p>
+          <form id="bookingForm">
+            <div class="form-grid">
+              <div class="field"><label for="guestName">Your name</label><input id="guestName" name="name" placeholder="Full name" required></div>
+              <div class="field"><label for="guestPhone">Phone number</label><input id="guestPhone" name="phone" type="tel" placeholder="+91" required></div>
+              <div class="field"><label for="bookingDate">Preferred date</label><input id="bookingDate" name="date" type="date" required></div>
+              <div class="field"><label for="bookingTime">Preferred time</label><input id="bookingTime" name="time" type="time" required></div>
+              <div class="field"><label for="guests">Number of guests</label><select id="guests" name="guests"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7+</option></select></div>
+              <div class="field"><label for="occasion">Occasion (optional)</label><select id="occasion" name="occasion"><option>Just a visit</option><option>Birthday</option><option>Anniversary</option><option>Get-together</option><option>Other</option></select></div>
+              <div class="field full"><label for="notes">Special request</label><textarea id="notes" name="notes" placeholder="Anything you'd like the cafe team to know?"></textarea></div>
+            </div>
+            <button class="btn btn-dark" type="submit">Send reservation request via WhatsApp ↗</button>
+            <p class="fineprint">This form sends a request only. Your table is not confirmed until Garden Cafe replies.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand"><a class="brand" href="#home"><span class="brand-mark">G</span><span><span class="brand-name">GARDEN CAFE</span><span class="brand-sub">ਗਾਰਡਨ ਕੈਫੇ · LUDHIANA</span></span></a><p>A little escape in the heart of Sarabha Nagar. Good food, refreshing sips and moments worth remembering.</p></div>
+        <div class="footer-links">
+          <div class="footer-col"><strong>Explore</strong><a href="#story">Our story</a><a href="#menu">Menu highlights</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a></div>
+          <div class="footer-col"><strong>Visit</strong><a href="#contact">Location</a><a href="tel:+916239604749">Call us</a><a href="#booking">Table request</a><a href="https://www.google.com/maps/search/?api=1&query=Garden+Cafe+Sarabha+Nagar+Ludhiana" target="_blank" rel="noopener">Google Maps</a></div>
+        </div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year"></span> Garden Cafe. All rights reserved.</span><span>Made for good food & good company · Ludhiana, Punjab</span></div>
+    </div>
+  </footer>
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog"><button id="lightboxClose" aria-label="Close image">×</button><img id="lightboxImage" alt="Expanded cafe gallery image"></div>
+  <div class="toast" id="toast" role="status">Opening WhatsApp…</div>
+
+  <script>
+    const navbar=document.getElementById('navbar');
+    window.addEventListener('scroll',()=>navbar.classList.toggle('scrolled',window.scrollY>40),{passive:true});
+    const menuToggle=document.getElementById('menuToggle'),navLinks=document.getElementById('navLinks');
+    menuToggle.addEventListener('click',()=>{navLinks.classList.toggle('open');menuToggle.textContent=navLinks.classList.contains('open')?'×':'☰'});
+    navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navLinks.classList.remove('open');menuToggle.textContent='☰'}));
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+    document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');const filter=btn.dataset.filter;document.querySelectorAll('.dish').forEach(card=>{card.style.display=filter==='all'||card.dataset.category===filter?'':'none'})}));
+    const lightbox=document.getElementById('lightbox'),lightboxImage=document.getElementById('lightboxImage');
+    document.querySelectorAll('.gallery-item img').forEach(img=>img.addEventListener('click',()=>{lightboxImage.src=img.src;lightbox.classList.add('open')}));
+    function closeLightbox(){lightbox.classList.remove('open');lightboxImage.src=''}
+    document.getElementById('lightboxClose').addEventListener('click',closeLightbox);lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeLightbox()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});
+    const dateInput=document.getElementById('bookingDate');const today=new Date();dateInput.min=new Date(today.getTime()-today.getTimezoneOffset()*60000).toISOString().slice(0,10);
+    document.getElementById('bookingForm').addEventListener('submit',e=>{
+      e.preventDefault();const data=new FormData(e.currentTarget);const msg=[
+        'Hello Garden Cafe! I would like to request a table.',
+        `Name: ${data.get('name')}`,`Phone: ${data.get('phone')}`,`Date: ${data.get('date')}`,`Time: ${data.get('time')}`,`Guests: ${data.get('guests')}`,`Occasion: ${data.get('occasion')}`,`Special request: ${data.get('notes')||'None'}`,
+        'Please confirm availability. Thank you!'
+      ].join('\n');
+      document.getElementById('toast').classList.add('show');setTimeout(()=>document.getElementById('toast').classList.remove('show'),1800);
+      window.open('https://wa.me/916239604749?text='+encodeURIComponent(msg),'_blank','noopener');
+    });
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
