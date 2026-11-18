@@ -1,0 +1,288 @@
+{
+  "navbar": {
+    "items": {
+      "coffee": "Our Coffee",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "events": "Events",
+      "faqs": "FAQs",
+      "findUs": "Find Us"
+    },
+    "orderBag": "Order Bag",
+    "orderBagTitle": "View your food order bag",
+    "bookTable": "Book a Table",
+    "current": "Current",
+    "viewOrderBagCount": "View Order Bag ({{count}})",
+    "social": {
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "hero": {
+    "eyebrowPrefix": "Specialty Coffee & Eatery ·",
+    "headlineLine1": "Good Coffee.",
+    "headlineLine2": "Good People.",
+    "headlineAccent": "Great Days.",
+    "subheading": "Single-origin espresso, seasonal garden filter, artisanal kitchen favourites, and everything prepared from scratch with warmth.",
+    "ctaMenu": "See our menu",
+    "ctaFindUs": "Find us",
+    "ctaReserve": "Reserve a Table",
+    "trustChips": {
+      "roaster": "Specialty Roaster",
+      "milk": "Organic Whole Milk",
+      "dogFriendly": "Dog Friendly Garden",
+      "reviewsSuffix": "Reviews"
+    },
+    "heroImageAlt": "Warm independent coffee shop interior with wooden tables, warm morning light, and lush greenery"
+  },
+  "ourCoffee": {
+    "eyebrow": "Sourcing & Craft",
+    "heading": "From Farm to Cup.",
+    "quote": "“Every bag tells the story of the farmer who grew it.”",
+    "paragraph1": "We believe exceptional coffee starts with respect for origin. We partner directly with dedicated smallholder estates across Chikmagalur, Coorg, and seasonal African origins who practice biodiverse shade-growing and hand-sorting.",
+    "paragraph2": "Each micro-lot is roasted in careful small batches to preserve its intrinsic terroir — highlighting natural fruit sweetness, vibrant florals, and velvety milk chocolate body without charred bitterness.",
+    "chips": {
+      "directTrade": "Direct Trade",
+      "singleOrigin": "Single Origin",
+      "seasonalRotating": "Seasonal Rotating"
+    },
+    "cta": "Ask for Whole Beans & Brews",
+    "floatingBadgeTitle": "Roasted with care",
+    "floatingBadgeSubtitle": "Small batches weekly"
+  },
+  "about": {
+    "eyebrow": "Our Story & People",
+    "heading": "Opened with One Machine and a Big Idea.",
+    "paragraph1": "Founded in 2019, Garden Cafe was born from a simple belief: that a neighborhood café should feel like an extension of your living room, filled with sunlit greenery, the comforting hiss of the steam wand, and genuinely thoughtful hospitality.",
+    "paragraph2": "What started as a quiet passion project in Sarabha Nagar quickly evolved into a beloved community sanctuary. Whether it is your sacred 10 AM flat white, an unhurried weekend brunch over garlic bread and lasagna, or an evening conversation under warm Edison glow, our team is here to make your day just that little bit brighter.",
+    "chips": {
+      "established": "Est. 2019",
+      "craft": "Specialty Craft",
+      "community": "Community Hub"
+    },
+    "stats": {
+      "googleRating": "Google Rating",
+      "customerReviews": "Customer Reviews",
+      "dailyClose": "Daily Close"
+    },
+    "imageQuote": "“A table is always waiting for you here.”",
+    "imageCaption": "Team Garden Cafe · Sarabha Nagar"
+  },
+  "gallery": {
+    "eyebrow": "Atmosphere & Moments",
+    "heading": "Life Around Our Tables.",
+    "subtitle": "Click on any photo to zoom in on our courtyard atmosphere, latte art, and daily café rhythm."
+  },
+  "events": {
+    "eyebrow": "Gatherings & Experiences",
+    "heading": "Hire the Space.",
+    "description": "Available for private hire evenings and weekends — coffee cuppings, team breakfasts, intimate birthday dinners, and creative popup events in our garden courtyard.",
+    "chips": {
+      "privateHire": "Private Hire & Dinners",
+      "cuppings": "Coffee Cuppings & Tastings"
+    },
+    "cta": "Enquire about events & tables"
+  },
+  "testimonials": {
+    "eyebrow": "Loved By Local Guests",
+    "heading": "Words Over Warm Coffee.",
+    "subtitle": "Over {{count}} guests have rated their experience {{rating}}★ on Google.",
+    "reviewsLink": "Read all 1,199+ verified Google reviews →"
+  },
+  "faqs": {
+    "badge": "Got Questions?",
+    "heading": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our specialty brews, courtyard table reservations, dietary options, and cafe etiquette.",
+    "searchPlaceholder": "Search questions (e.g. walk-ins, decaf, vegan, pet-friendly, Wi-Fi)...",
+    "modalSearchPlaceholder": "Search questions (e.g. walk-ins, oat milk, Wi-Fi, pets)...",
+    "clear": "Clear",
+    "emptyTitle": "No questions found matching “{{query}}”.",
+    "resetFilters": "Reset Search Filters",
+    "modalSubtitle": "Guest Guide & Information",
+    "modalFooterNote": "Need more help? Our team is live on WhatsApp.",
+    "reserveTable": "Reserve Table",
+    "whatsapp": "WhatsApp",
+    "categories": {
+      "all": "All Questions",
+      "coffee": "Coffee & Brews",
+      "reservations": "Table Bookings",
+      "food": "Food & Dietary",
+      "space": "Space & Events"
+    },
+    "modalCategories": {
+      "all": "All",
+      "coffee": "Coffee",
+      "reservations": "Bookings",
+      "food": "Food & Dietary",
+      "space": "Space & Etiquette"
+    }
+  },
+  "findUs": {
+    "eyebrow": "Visit Garden Cafe",
+    "heading": "Come and Say Hello.",
+    "description": "Drop by for a slow coffee, a hearty lunch, or an evening catch-up in our leafy Sarabha Nagar courtyard. We can’t wait to welcome you.",
+    "ourLocation": "Our Location",
+    "openingHours": "Opening Hours",
+    "getDirections": "Get directions",
+    "callPrefix": "Call",
+    "socialLabel": "Connect on Social Media",
+    "mapBadge": "Sarabha Nagar · Ludhiana",
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "footer": {
+    "description": "An unhurried retreat for artisanal specialty coffee, scratch-cooked brunch, and warm conversations in the heart of Sarabha Nagar.",
+    "connectWithUs": "Connect With Us",
+    "sections": {
+      "explore": "Explore",
+      "helpAndPolicies": "Help & Policies",
+      "visitingAndContact": "Visiting & Contact"
+    },
+    "links": {
+      "home": "Home",
+      "coffee": "Our Coffee & Craft Sourcing",
+      "menu": "What’s On & Menu Highlights",
+      "about": "About Our Journey",
+      "gallery": "Courtyard Gallery",
+      "faqs": "FAQs",
+      "cookiesPolicy": "Cookies Policy",
+      "privateBookings": "Private Bookings",
+      "managerPortal": "Manager Portal →",
+      "cookiesAndStorage": "Cookies & Storage"
+    },
+    "dailyHours": "Daily: 10:00 AM – 11:00 PM",
+    "phoneLabel": "Phone:",
+    "craftedWith": "Crafted with",
+    "forCommunity": "for community"
+  },
+  "cookies": {
+    "bannerTitle": "Cookie & Storage Preferences",
+    "bannerSubtitle": "Garden Cafe · Sarabha Nagar",
+    "bannerDescription": "We use essential browser cookies & local storage to remember your food order bag, table reservations, and cafe schedule. We respect your privacy and never sell personal data.",
+    "bannerOptions": "Cookie Policy & Options",
+    "bannerEssential": "Essential",
+    "bannerAcceptAll": "Accept All",
+    "modalTitle": "Cookie & Storage Policy",
+    "modalSubtitle": "Transparency & Privacy Preferences",
+    "tabs": {
+      "preferences": "Customize Preferences",
+      "policy": "Full Policy Disclosure"
+    },
+    "privacyHeading": "Respecting your privacy & choices",
+    "privacyBody": "We never sell your data or use third-party behavioral advertising trackers. Local storage and cookies are used exclusively to give you an unhurried, delightful cafe ordering and booking experience.",
+    "categories": {
+      "necessaryTitle": "Strictly Necessary Storage",
+      "necessaryBadge": "Always Active",
+      "necessaryDesc": "Essential for the basic functioning of our website: retains your food order items in your cart drawer, operational schedule data, and manager login credentials.",
+      "preferencesTitle": "Preferences & Contact Memory",
+      "preferencesDesc": "Remembers your guest contact details (name, phone number, and special seating requests) so you don't need to retype them whenever reserving a table or re-ordering your favorite coffee.",
+      "analyticsTitle": "Performance & Cafe Metrics",
+      "analyticsDesc": "Collects anonymous telemetry regarding page load times and popular menu browsing categories to help our culinary team optimize service hours and stock availability."
+    },
+    "policySections": {
+      "s1Title": "1. What Are Cookies and Web Storage?",
+      "s1Body": "Cookies and HTML5 Local Storage are small data files saved directly within your browser. They allow websites to remember actions and preferences (such as dishes added to your cart, active filter selections, and order history) over a period of time.",
+      "s2Title": "2. How Garden Cafe Uses Them",
+      "s2Item1Label": "Shopping Cart Integrity:",
+      "s2Item1Body": "Retains selected beverages and brunch dishes so you do not lose your items if you accidentally refresh the page.",
+      "s2Item2Label": "Reservation Confirmations:",
+      "s2Item2Body": "Temporarily holds your table reservation token and party size during WhatsApp confirmation.",
+      "s2Item3Label": "Store Hours & Alert Synchronization:",
+      "s2Item3Body": "Stores current operational status (e.g. kitchen open, paused, or closed) to provide accurate ordering notices.",
+      "s3Title": "3. No Third-Party Tracking",
+      "s3Body": "We do not embed third-party surveillance scripts, cross-site advertising pixels, or data brokers. All data is stored locally in your browser.",
+      "s4Title": "4. How to Clear or Disable Cookies",
+      "s4Body": "You can clear your local storage at any time by accessing your browser's Developer Tools or Privacy Settings, or by clicking the “Clear All Data” button in our manager console."
+    },
+    "buttons": {
+      "essentialOnly": "Essential Only",
+      "saveChoices": "Save Choices",
+      "acceptAll": "Accept All"
+    }
+  },
+  "cart": {
+    "title": "Your Order",
+    "subtitleSingle": "{{count}} item in cart · Pushed live to kitchen",
+    "subtitlePlural": "{{count}} items in cart · Pushed live to kitchen",
+    "receivedTitle": "Order Received!",
+    "receivedNumber": "Order #{{number}}",
+    "receivedDesc": "Your order has been placed and pushed live to the Garden Cafe kitchen console.",
+    "sendCustomerConfirmation": "Send Confirmation to my Number (+{{phone}})",
+    "notifyKitchen": "Notify Cafe Kitchen Desk",
+    "continueBrowsing": "Continue Browsing",
+    "emptyTitle": "Your bag is empty",
+    "emptyDesc": "Explore our handcrafted coffee, brunch plates, and artisan bakery items to add to your order.",
+    "browseMenu": "Browse Menu"
+  },
+  "reservation": {
+    "eyebrow": "Table & Event Booking",
+    "titleConfirmed": "Booking Confirmed.",
+    "titleDefault": "Reserve a Table.",
+    "subtitleConfirmed": "Your table request has been received by our host desk.",
+    "subtitleDefault": "Fill in your visit details to request a table at {{name}}.",
+    "reservedHeading": "Table Reserved!",
+    "reservedMessage": "Thank you, {{name}}. Your reservation request has been submitted directly to our manager desk.",
+    "dateAndTime": "Date & Time",
+    "partySize": "Party Size",
+    "guestSingle": "Guest",
+    "guestPlural": "Guests",
+    "contact": "Contact",
+    "occasion": "Occasion",
+    "sendCustomerConfirmation": "Send Confirmation to Customer Number (+{{phone}})",
+    "notifyHostDesk": "Notify Cafe Host Desk on WhatsApp",
+    "done": "Done",
+    "closedBanner": "Note: Cafe is currently closed for live walk-ins, but advance bookings are welcome!"
+  },
+  "admin": {
+    "consoleSubtitle": "Vertical Admin Console",
+    "portalBreadcrumb": "Manager Portal",
+    "allSections": "All Sections",
+    "liveSwitches": "Live Switches",
+    "storeStatusOpen": "Store Status: OPEN",
+    "storeStatusClosed": "Store Status: CLOSED",
+    "storeChipOpen": "Store Open",
+    "storeChipClosed": "Store Closed",
+    "whatsappAuto": "WhatsApp Auto:",
+    "on": "ON",
+    "off": "OFF",
+    "navigationMenu": "Navigation Menu",
+    "quickActions": "Quick Actions",
+    "addNewDish": "+ Add New Dish",
+    "newReservation": "+ New Reservation",
+    "locationLabel": "Location",
+    "locationValue": "Ludhiana, IN",
+    "reset": "Reset",
+    "resetConfirm": "Are you sure you want to reset and clear all orders and reservations?",
+    "storefront": "Storefront",
+    "unifiedMasterView": "Unified Master View",
+    "unifiedMode": "Unified Mode",
+    "quickJump": "Quick Jump:",
+    "backToTop": "↑ Back to Top",
+    "returnToUnified": "Return to Unified Master View (All Sections)",
+    "viewingFocused": "Viewing focused section:",
+    "footer": "Garden Cafe Vertical Admin Console · Sarabha Nagar, Ludhiana · Node/Vite Localhost",
+    "nav": {
+      "allTitle": "Main Admin (All)",
+      "allDesc": "Unified all-in-one console",
+      "ordersTitle": "Food Orders",
+      "ordersDesc": "Kitchen live tickets & dispatch",
+      "reservationsTitle": "Table Bookings",
+      "reservationsDesc": "Guest seating & reservations",
+      "menuTitle": "Menu & Stock",
+      "menuDesc": "Item catalog & 86 toggles",
+      "settingsTitle": "Operations & Hours",
+      "settingsDesc": "Store status, timings & banner"
+    },
+    "pageTitles": {
+      "all": "Unified Main Admin Console",
+      "orders": "Live Kitchen & Food Orders",
+      "reservations": "Table & Event Bookings",
+      "menu": "Menu Catalog & Stock Control",
+      "settings": "Operations & Cafe Schedule"
+    }
+  }
+}

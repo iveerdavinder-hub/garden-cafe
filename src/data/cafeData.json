@@ -1,0 +1,454 @@
+{
+  "cafeConfig": {
+    "name": "Garden Cafe",
+    "wordmark": "Garden Cafe",
+    "subBrand": "ਗਾਰਡਨ ਕੈਫੇ · SARABHA NAGAR",
+    "locationShort": "Sarabha Nagar, Ludhiana",
+    "fullAddress": "74-D, D-Block, Sarabha Nagar, Ludhiana, Punjab 141001",
+    "phone": "+91 62396 04749",
+    "whatsappNumber": "916239604749",
+    "googleRating": 4.0,
+    "reviewCount": "1,199",
+    "closingTime": "11:00 PM",
+    "hoursWeekday": "Monday–Friday 10:00 AM – 11:00 PM",
+    "hoursWeekend": "Saturday–Sunday 10:00 AM – 11:00 PM",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Garden+Cafe+74-D+Sarabha+Nagar+Ludhiana",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Garden+Cafe%2C+74-D%2C+D-Block%2C+Sarabha+Nagar%2C+Ludhiana%2C+Punjab+141001",
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/gardencafeludhiana",
+      "facebook": "https://www.facebook.com/gardencafeludhiana",
+      "whatsapp": "https://wa.me/916239604749",
+      "googleReviews": "https://www.google.com/maps/search/?api=1&query=Garden+Cafe+74-D+Sarabha+Nagar+Ludhiana"
+    }
+  },
+  "menuItems": [
+    {
+      "id": "item-1",
+      "name": "Paneer Malai Tikka",
+      "category": "starters",
+      "categoryLabel": "Tandoor & Starters",
+      "description": "Chunks of fresh cottage cheese marinated with rich hung curd, malai cream, mild spices, and ginger garlic.",
+      "price": "₹515",
+      "tag": "Tandoor Classic",
+      "image": "/images/dishes/paneer-malai-tikka.jpg",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-2",
+      "name": "Dahi Ke Kebab",
+      "category": "starters",
+      "categoryLabel": "Tandoor & Starters",
+      "description": "Melt-in-the-mouth Awadhi spiced hung curd patties with fresh mint, coriander, and crisp golden crust.",
+      "price": "₹505",
+      "tag": "Awadhi Special",
+      "image": "/images/dishes/dahi-ke-kebab.jpg",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-3",
+      "name": "Cheese & Chicken Garlic Bread",
+      "category": "starters",
+      "categoryLabel": "Tandoor & Starters",
+      "description": "Gourmet toasted sourdough rubbed with roasted garlic butter, tender chicken & molten cheese.",
+      "price": "₹280",
+      "tag": "Guest Favourite",
+      "image": "/images/dishes/cheese-chicken-garlic-bread.png",
+      "isVegetarian": false
+    },
+    {
+      "id": "item-4",
+      "name": "Murgh Malai Tikka",
+      "category": "starters",
+      "categoryLabel": "Tandoor & Starters",
+      "description": "Supreme cut tender boneless chicken morsels steeped in malai cream, mild white pepper, and roasted in tandoor.",
+      "price": "₹545",
+      "tag": "Chef's Cut",
+      "image": "/images/dishes/murgh-malai-tikka.jpg",
+      "isVegetarian": false
+    },
+    {
+      "id": "item-5",
+      "name": "Malai Broccoli",
+      "category": "starters",
+      "categoryLabel": "Tandoor & Starters",
+      "description": "Char-grilled broccoli florets tossed in rich cashew-cream marinade, cracked black pepper, and melted cheese.",
+      "price": "₹495",
+      "tag": "Tandoor Veg",
+      "image": "/images/dishes/malai-broccoli.jpg",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-6",
+      "name": "Signature Wood-Fired Garden Pizza",
+      "category": "mains",
+      "categoryLabel": "Pizzas & Mains",
+      "description": "Hand-tossed thin crust baked blistered with garden broccoli, sweet bell peppers, red onion, and mozzarella on a wooden peel.",
+      "price": "₹480",
+      "tag": "House Signature",
+      "image": "/images/gallery/garden_cafe_artisan_pizza.jpg",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-7",
+      "name": "Chicken Penne in White Sauce",
+      "category": "mains",
+      "categoryLabel": "Pizzas & Mains",
+      "description": "Al dente penne pasta tossed in velvety garlic parmesan cream sauce with grilled herb chicken and parsley.",
+      "price": "₹450",
+      "tag": "Italian Kitchen",
+      "image": "/images/dishes/chicken-penne-pasta.jpg",
+      "isVegetarian": false
+    },
+    {
+      "id": "item-8",
+      "name": "Non-Veg Club Sandwich",
+      "category": "mains",
+      "categoryLabel": "Pizzas & Mains",
+      "description": "Triple-layer toasted artisan sandwich with spiced shredded chicken, fried egg, fresh lettuce, and crispy fries.",
+      "price": "₹320",
+      "tag": "All-Day Classic",
+      "image": "/images/dishes/non-veg-club-sandwich.jpg",
+      "isVegetarian": false
+    },
+    {
+      "id": "item-9",
+      "name": "Classic Italian Lasagna",
+      "category": "mains",
+      "categoryLabel": "Pizzas & Mains",
+      "description": "Layered sheet pasta with slow-simmered herb tomato reduction, velvety béchamel, and golden gratinated crust.",
+      "price": "₹340",
+      "tag": "Chef's Kitchen",
+      "image": "/images/dishes/classic-lasagna.png",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-10",
+      "name": "Classic Flat White",
+      "category": "coffee",
+      "categoryLabel": "Espresso & Coffee",
+      "description": "Double ristretto poured with velvety micro-foamed organic milk, rich crema, and fine latte art.",
+      "price": "₹190",
+      "tag": "Signature Brew",
+      "image": "/images/dishes/classic-flat-white.png",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-11",
+      "name": "18-Hour Slow Cold Brew",
+      "category": "coffee",
+      "categoryLabel": "Espresso & Coffee",
+      "description": "Slow-steeped at 4°C with single-origin beans for rounded cocoa sweetness and zero bitterness over crystal ice.",
+      "price": "₹210",
+      "tag": "Slow Brew",
+      "image": "/images/dishes/slow-cold-brew.png",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-12",
+      "name": "V60 Single-Origin Filter",
+      "category": "coffee",
+      "categoryLabel": "Espresso & Coffee",
+      "description": "Hand-poured ceramic spiral extraction revealing delicate floral aromatics and stone-fruit brightness.",
+      "price": "₹220",
+      "tag": "Artisan Pour",
+      "image": "/images/dishes/v60-single-origin.png",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-13",
+      "name": "Artisan Tea & Pot Service",
+      "category": "beverages",
+      "categoryLabel": "Beverages & Shakes",
+      "description": "Freshly brewed whole-leaf tea served in an authentic hand-painted ceramic teapot with saucer & crisp butter biscuit.",
+      "price": "₹180",
+      "tag": "Garden Ritual",
+      "image": "/images/gallery/garden_cafe_coffee_tea.jpg",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-14",
+      "name": "Handcrafted Gourmet Dessert Shake",
+      "category": "beverages",
+      "categoryLabel": "Beverages & Shakes",
+      "description": "Tall specialty shake layered with cream, whipped peaks, roasted marshmallows, and candy swirl.",
+      "price": "₹260",
+      "tag": "Signature Shake",
+      "image": "/images/gallery/garden_cafe_dessert_shakes.jpg",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-15",
+      "name": "Rich Belgian Hot Chocolate",
+      "category": "beverages",
+      "categoryLabel": "Beverages & Shakes",
+      "description": "Melted dark couverture chocolate whisked with steamed whole milk and sea salt finish.",
+      "price": "₹210",
+      "tag": "Cosy Favourite",
+      "image": "/images/dishes/belgian-hot-chocolate.png",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-16",
+      "name": "Virgin Piña Colada",
+      "category": "beverages",
+      "categoryLabel": "Beverages & Shakes",
+      "description": "Fresh tropical pineapple juice blended with silky coconut milk, crushed ice, and citrus garnish.",
+      "price": "₹240",
+      "tag": "Chilled Cooler",
+      "image": "/images/dishes/virgin-pina-colada.jpg",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-17",
+      "name": "Warm Chocolate Fudge Brownie",
+      "category": "bakery",
+      "categoryLabel": "Baked & Desserts",
+      "description": "Dense Belgian chocolate brownie served warm with Madagascan vanilla bean gelato scoop.",
+      "price": "₹180",
+      "tag": "Sweet Treat",
+      "image": "/images/dishes/chocolate-fudge-brownie.png",
+      "isVegetarian": true
+    },
+    {
+      "id": "item-18",
+      "name": "Artisan Croissant & Bakes",
+      "category": "bakery",
+      "categoryLabel": "Baked & Desserts",
+      "description": "All-butter laminated French pastry baked golden every morning in our courtyard oven.",
+      "price": "₹160",
+      "tag": "Baked Daily",
+      "image": "/images/dishes/artisan-croissant.png",
+      "isVegetarian": true
+    }
+  ],
+  "brewMethods": [
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "subtitle": "Extracted under 9 bars of pressure",
+      "description": "Dense crema, deep cocoa notes, and rich full-bodied intensity.",
+      "iconName": "Coffee"
+    },
+    {
+      "id": "v60",
+      "name": "V60 Pour Over",
+      "subtitle": "Ceramic spiral cone extraction",
+      "description": "Highlights subtle floral nuances, stone fruit acidity, and tea-like clarity.",
+      "iconName": "Flame"
+    },
+    {
+      "id": "chemex",
+      "name": "Chemex Filter",
+      "subtitle": "Triple-bonded paper filtering",
+      "description": "Crisp and delicate, eliminating all oils for a clean, nuanced tasting profile.",
+      "iconName": "Droplet"
+    },
+    {
+      "id": "coldbrew",
+      "name": "18h Cold Brew",
+      "subtitle": "Slow steeped at 4°C",
+      "description": "Smooth chocolate finish, naturally sweet, with remarkably low acidity.",
+      "iconName": "Snowflake"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "quote": "Pretty place, nice ambience, friendly staff. Truly the coziest garden corner in Sarabha Nagar.",
+      "author": "Simran K.",
+      "role": "Regular Guest · Google Review",
+      "rating": 5
+    },
+    {
+      "id": "t2",
+      "quote": "Garlic Bread with cheese and chicken was too yum! The coffee and courtyard vibe are unmatched in Ludhiana.",
+      "author": "Amanpreet S.",
+      "role": "Food Enthusiast · Google Review",
+      "rating": 5
+    },
+    {
+      "id": "t3",
+      "quote": "Food and drinks were great. A peaceful retreat to read, work or have long conversations with friends.",
+      "author": "Rohit M.",
+      "role": "Local Explorer · Google Review",
+      "rating": 5
+    }
+  ],
+  "galleryItems": [
+    {
+      "id": "g1",
+      "title": "Evening Garden Entrance",
+      "caption": "Illuminated bougainvillea canopy and warm fairy lights welcoming you to Garden Cafe, Sarabha Nagar.",
+      "image": "/images/gallery/garden_cafe_entrance.jpg"
+    },
+    {
+      "id": "g2",
+      "title": "Vintage Indoor Haven",
+      "caption": "Hanging basket ferns, artisanal pendant lights, ceramic wall plates, and plush armchair corners.",
+      "image": "/images/gallery/garden_cafe_indoor.jpg"
+    },
+    {
+      "id": "g3",
+      "title": "Sunlit Courtyard Terrace",
+      "caption": "Breezy turquoise canopy and garden dining setting surrounded by natural foliage and bakery counter.",
+      "image": "/images/gallery/garden_cafe_courtyard_day.jpg"
+    },
+    {
+      "id": "g4",
+      "title": "Twilight Pergola Dining",
+      "caption": "Rustic timber tables under glowing festoon bulbs and lush courtyard palms.",
+      "image": "/images/gallery/garden_cafe_patio_night.jpg"
+    },
+    {
+      "id": "g5",
+      "title": "Artisan Tea & Brewed Coffee",
+      "caption": "Hand-painted ceramic teapots, freshly pulled brews, and buttery biscuits served to order.",
+      "image": "/images/gallery/garden_cafe_coffee_tea.jpg"
+    },
+    {
+      "id": "g6",
+      "title": "Handcrafted Dessert Shakes",
+      "caption": "Signature gourmet thick shakes with whipped peaks, roasted marshmallows, and treats.",
+      "image": "/images/gallery/garden_cafe_dessert_shakes.jpg"
+    },
+    {
+      "id": "g7",
+      "title": "Fresh Oven-Baked Fare",
+      "caption": "Crispy garden vegetable pizza served hot on seasoned wooden serving boards.",
+      "image": "/images/gallery/garden_cafe_artisan_pizza.jpg"
+    }
+  ],
+  "initialReservations": [
+    {
+      "id": "res-1",
+      "customerName": "Rohit Verma",
+      "phone": "+91 98140 12345",
+      "dayOffset": 0,
+      "time": "19:30",
+      "guests": "2",
+      "occasion": "Just a casual visit",
+      "notes": "Garden corner table preferred",
+      "status": "confirmed",
+      "createdAt": "10 mins ago"
+    },
+    {
+      "id": "res-2",
+      "customerName": "Simran Kaur",
+      "phone": "+91 98765 87654",
+      "dayOffset": 0,
+      "time": "20:15",
+      "guests": "4",
+      "occasion": "Birthday Celebration",
+      "notes": "Need high chair and space for cake presentation",
+      "status": "pending",
+      "createdAt": "24 mins ago"
+    },
+    {
+      "id": "res-3",
+      "customerName": "Arjun Mehra",
+      "phone": "+91 98155 33221",
+      "dayOffset": 1,
+      "time": "13:00",
+      "guests": "2",
+      "occasion": "Work / Study Session",
+      "notes": "Near power outlet if possible",
+      "status": "pending",
+      "createdAt": "1 hour ago"
+    },
+    {
+      "id": "res-4",
+      "customerName": "Harpreet Singh",
+      "phone": "+91 98722 11990",
+      "dayOffset": 0,
+      "time": "21:00",
+      "guests": "3",
+      "occasion": "Anniversary",
+      "notes": "Candlelight seating requested",
+      "status": "confirmed",
+      "createdAt": "3 hours ago"
+    },
+    {
+      "id": "res-5",
+      "customerName": "Priya Sharma",
+      "phone": "+91 99887 66554",
+      "dayOffset": -1,
+      "time": "18:00",
+      "guests": "6",
+      "occasion": "Get-together",
+      "notes": "Reserved seating in main courtyard",
+      "status": "completed",
+      "createdAt": "Yesterday"
+    }
+  ],
+  "initialSettings": {
+    "isOpen": true,
+    "storeStatus": "open",
+    "announcement": "Fresh batch of Single-Origin Chikmagalur Estate filter coffee on tap today! ☕",
+    "announcementActive": true,
+    "phone": "+91 62396 04749",
+    "closingTime": "11:00 PM",
+    "kitchenCloseTime": "10:30 PM",
+    "autoOpenWhatsApp": false
+  },
+  "initialOrders": [
+    {
+      "id": "ord-1",
+      "orderNumber": "#GC-1082",
+      "customerName": "Amanpreet S.",
+      "phone": "+91 98765 43210",
+      "orderType": "dine_in",
+      "tableNumber": "Table 4 (Courtyard)",
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Classic Flat White",
+          "price": "₹190",
+          "priceNum": 190,
+          "quantity": 2,
+          "image": "/images/dishes/classic-flat-white.png"
+        },
+        {
+          "id": "item-3",
+          "name": "Cheese & Chicken Garlic Bread",
+          "price": "₹280",
+          "priceNum": 280,
+          "quantity": 1,
+          "image": "/images/dishes/cheese-chicken-garlic-bread.png"
+        }
+      ],
+      "totalAmount": 660,
+      "specialInstructions": "Extra garlic butter crisp, warm milk on the side",
+      "status": "new",
+      "createdAt": "5 mins ago"
+    },
+    {
+      "id": "ord-2",
+      "orderNumber": "#GC-1081",
+      "customerName": "Simran Kaur",
+      "phone": "+91 98140 99887",
+      "orderType": "takeaway",
+      "items": [
+        {
+          "id": "item-6",
+          "name": "18-Hour Slow Cold Brew",
+          "price": "₹210",
+          "priceNum": 210,
+          "quantity": 2,
+          "image": "/images/dishes/slow-cold-brew.png"
+        },
+        {
+          "id": "item-8",
+          "name": "Warm Chocolate Fudge Brownie",
+          "price": "₹180",
+          "priceNum": 180,
+          "quantity": 2,
+          "image": "/images/dishes/chocolate-fudge-brownie.png"
+        }
+      ],
+      "totalAmount": 780,
+      "specialInstructions": "Pack brownie warm in takeaway bakery box",
+      "status": "preparing",
+      "createdAt": "18 mins ago"
+    }
+  ]
+}

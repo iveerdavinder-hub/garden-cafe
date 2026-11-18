@@ -1,0 +1,52 @@
+{
+  "faqs": [
+    {
+      "id": "reservations-walkins",
+      "category": "reservations",
+      "question": "Do I need to reserve a table in advance, or do you accept walk-ins?",
+      "answer": "Walk-ins are always warmly welcomed! For casual coffee and quick bites, we usually have comfortable seating across our indoor espresso counter and courtyard garden. For weekend brunch (Saturday & Sunday 11 AM – 3 PM) and groups of 4 or more, we strongly recommend booking a table in advance via our website to secure your preferred spot."
+    },
+    {
+      "id": "coffee-sourcing",
+      "category": "coffee",
+      "question": "Where do you source your specialty coffee beans and what are your roast profiles?",
+      "answer": "We partner directly with sustainable, shade-grown estates in Chikmagalur and Coorg, Karnataka. Our coffees are 100% Arabica, harvested at peak sweetness and roasted in micro-batches to clean light-to-medium profiles that accentuate delicate jasmine florals, stone fruit sweetness, and brown sugar notes."
+    },
+    {
+      "id": "dietary-vegan-gf",
+      "category": "food",
+      "question": "Do you offer plant-based milk and vegan or gluten-free options?",
+      "answer": "Yes! We offer barista-grade Oat Milk, Almond Milk, and Soy Milk for any espresso drink or manual brew. Our kitchen crafts vegan sourdough toasts, avocado smash plates, granola chia parfaits, and daily fresh eggless pastries. Please inform our baristas of any allergies before placing your order."
+    },
+    {
+      "id": "pets-courtyard",
+      "category": "space",
+      "question": "Is Garden Cafe pet-friendly?",
+      "answer": "Yes, four-legged companions are always welcome! Our shaded outdoor garden courtyard is fully pet-friendly. Let our team know upon arrival and we will happily provide fresh water bowls and a cool resting spot for your pet."
+    },
+    {
+      "id": "work-wifi",
+      "category": "space",
+      "question": "Can I work remotely or study at the cafe?",
+      "answer": "Absolutely. We welcome laptop workers and readers on weekdays. We have high-speed complimentary Wi-Fi, accessible power outlets along our indoor oak banquette booths, and gentle acoustic playlists. During busy weekend peak hours, we appreciate guests being mindful of table turnover."
+    },
+    {
+      "id": "ordering-whatsapp",
+      "category": "food",
+      "question": "How does food ordering and WhatsApp confirmation work?",
+      "answer": "You can browse our digital menu, customize items, and add them to your Order Bag. When you submit your order, your kitchen ticket is saved immediately, and you can chat directly with our counter team via WhatsApp to get live preparation and pickup updates."
+    },
+    {
+      "id": "private-events",
+      "category": "space",
+      "question": "Can we host private workshops, birthday gatherings, or pop-up events?",
+      "answer": "Yes! We host intimate gatherings, cupping workshops, acoustic music evenings, book clubs, and celebrations. You can request a group reservation or reach out to our manager via WhatsApp or phone to curate a personalized food and beverage menu."
+    },
+    {
+      "id": "decaf-tea",
+      "category": "coffee",
+      "question": "Do you offer decaf coffee or non-coffee drinks?",
+      "answer": "Yes! We offer Swiss Water Process decaf espresso drinks, single-estate loose-leaf teas (Kashmiri Kahwa, Chamomile, Hibiscus Mint), handcrafted Japanese matcha, and small-batch botanical coolers made with seasonal fruit purees."
+    }
+  ]
+}

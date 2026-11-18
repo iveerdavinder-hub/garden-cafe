@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 35 30% 97%;       /* warm cream #faf6ef */
+  --foreground: 22 40% 12%;       /* espresso near-black */
+  --primary: 22 55% 28%;          /* espresso brown #6b3a1f */
+  --primary-foreground: 35 30% 97%;
+  --accent: 38 65% 55%;           /* warm amber #c9833a */
+  --surface: 35 25% 91%;          /* warm oat */
+  --muted-foreground: 22 15% 50%;
+  --border: 35 20% 82%;
+}
+
+@layer base {
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Typography & Utility Classes */
+.label-caps {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.amber-rule {
+  height: 2px;
+  background-color: hsl(var(--accent));
+  transform-origin: left;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--accent));
+}
